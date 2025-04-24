@@ -1,6 +1,5 @@
 - https://docs.michsky.com/docs/dark-ui/quick-start/
 
-
 ## 整理
 
 == 快速使用
@@ -16,7 +15,6 @@
 - “换皮”控制器
 
 ![1744182306752](image/DarkUI/1744182306752.png)
-
 
 - Update Values
 
@@ -34,8 +32,6 @@
 
   ![1744184178890](image/DarkUI/1744184178890.png)
 - UI Manager Hints ： 查看每个manger的tips
-
-
 
 == UI Elements
 
@@ -56,7 +52,6 @@ using Michsky.UI.Dark; // namespacepublic ButtonManager myButton; // Your button
 
 ```
 
-
 ![1744185507101](image/DarkUI/1744185507101.png)
 
 Horizontal Selector
@@ -64,7 +59,6 @@ Horizontal Selector
 - 似乎是list中向前或者向后的内容
 - Items,  您可以在此列表中添加水平选择器项目。如果愿意，还可以为每个项目添加功能。只要启用 “指示器”，每个按钮都会在运行时生成一个指示器项。
 - Saving，启用此功能后，您可以保存所选值。请注意，每个选择器都应有自己唯一的选择器标签值。否则，选择器之间可能会发生冲突。
-
 
 ```csharp
 using Michsky.UI.Dark; // namespacepublic HorizontalSelector mySelector; // Your selector variablevoid YourFunction()
@@ -86,8 +80,6 @@ using Michsky.UI.Dark; // namespacepublic HorizontalSelector mySelector; // Your
 
 ```
 
-
-
 Modal Window
 
 - 用于定义一个弹窗的内容，使用 Modal Window manger
@@ -96,14 +88,12 @@ Modal Window
 
 ![1744186576123](image/DarkUI/1744186576123.png)
 
-
 Slider
 
 - 基本使用的是原生的slider组件
 - 在此基础上加上了定制的内容
 
 ![1744187938450](image/DarkUI/1744187938450.png)
-
 
 ==  Panels & Windows
 
@@ -112,7 +102,6 @@ Slider
 
 - Splash Screen Manager， 基本就是用来延迟显示一些内容的页面
 - 注意代码的使用方式
-
 
 ```csharp
 usingMichsky.UI.Dark;//namespace
@@ -127,9 +116,7 @@ ssManager.startDelay=0.5f;//Addadelaybeforethesequence
 
 ```
 
-
 ![1744188181812](image/DarkUI/1744188181812.png)
-
 
  == Gamepad Handler
 
@@ -157,7 +144,6 @@ public GamepadChecker gamepadManager;void YourFunction()
 ```
 
 ![1744188709737](image/DarkUI/1744188709737.png)
-
 
 ==  Gamepad Scroll Event
 

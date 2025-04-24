@@ -6,8 +6,6 @@
 
 - 用于生成icon [用于生成icon的工具](./IconGenerate/iconGenerate.md)
 
-
-
 ```mermaid
 sequenceDiagram
     participant Launcher
@@ -26,3 +24,15 @@ sequenceDiagram
     end
     UILoading->>MainMenu: 加载完成进入主界面(MENU层)
 ```
+
+
+
+## 清单
+
+材质
+
+Real Materials Complete 4.0.2.unitypackage.
+
+场景
+
+DYNAMIC RainWetness 1.3.2.unitypackage.baiduyun.p
