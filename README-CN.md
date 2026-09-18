@@ -2,10 +2,11 @@
 
 ## Unity 开发工具和框架的综合文档
 
-![Unity](https://img.shields.io/badge/Unity-2020.3%2B-blue.svg)
+![Unity](https://img.shields.io/badge/Unity-6.0%2B-blue.svg)
 ![Documentation](https://img.shields.io/badge/docs-综合文档-brightgreen.svg)
 ![Language](https://img.shields.io/badge/language-EN%20%7C%20CN-orange.svg)
 ![License](https://img.shields.io/badge/license-教育用途-lightgrey.svg)
+![Status](https://img.shields.io/badge/status-活跃-success.svg)
 
 [English](./README.md) | 简体中文
 
@@ -97,6 +98,21 @@ Component/
 - **代码示例** - 带有内联注释的即用代码片段
 - **视觉参考** - UI 和配置的截图
 - **最佳实践** - 性能提示和常见模式
+
+### Unity 版本兼容性
+
+本文档主要面向 **Unity 6.0+**，但各个组件有不同的版本要求：
+
+| 组件 | 最低 Unity 版本 | 说明 |
+|------|----------------|------|
+| Cinemachine | 2021.3 LTS+ | Unity 6.0+ 内置包 |
+| Game Creator | 2021.3 LTS+ | 需要现代 Unity 功能 |
+| MlskyUI | 2020.3 LTS+ | 兼容较旧版本 |
+| RadialMenu | 2019.4 LTS+ | 广泛兼容性 |
+| UniTask | 2020.3 LTS+ | 需要 .NET Standard 2.1 |
+| Synty 资产 | 2019.4+ | 通用兼容性 |
+
+**推荐：** 使用 Unity 2021.3 LTS 或 Unity 6.0 以获得所有组件的最佳兼容性。
 
 ## 🤝 贡献
 

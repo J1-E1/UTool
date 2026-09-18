@@ -2,10 +2,11 @@
 
 ## Comprehensive documentation for Unity development tools and frameworks
 
-![Unity](https://img.shields.io/badge/Unity-2020.3%2B-blue.svg)
+![Unity](https://img.shields.io/badge/Unity-6.0%2B-blue.svg)
 ![Documentation](https://img.shields.io/badge/docs-comprehensive-brightgreen.svg)
 ![Language](https://img.shields.io/badge/language-EN%20%7C%20CN-orange.svg)
 ![License](https://img.shields.io/badge/license-Educational-lightgrey.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
 
 English | [简体中文](./README-CN.md)
 
@@ -97,6 +98,21 @@ Component/
 - **Code examples** - Ready-to-use snippets with inline comments
 - **Visual references** - Screenshots for UI and configuration
 - **Best practices** - Performance tips and common patterns
+
+### Unity Version Compatibility
+
+This documentation primarily targets **Unity 6.0+**, but individual components have varying requirements:
+
+| Component | Minimum Unity Version | Notes |
+|-----------|----------------------|-------|
+| Cinemachine | 2021.3 LTS+ | Built-in package in Unity 6.0+ |
+| Game Creator | 2021.3 LTS+ | Requires modern Unity features |
+| MlskyUI | 2020.3 LTS+ | Compatible with older versions |
+| RadialMenu | 2019.4 LTS+ | Wide compatibility range |
+| UniTask | 2020.3 LTS+ | Requires .NET Standard 2.1 |
+| Synty Assets | 2019.4+ | Universal compatibility |
+
+**Recommendation:** Use Unity 2021.3 LTS or Unity 6.0 for best compatibility across all components.
 
 ## 🤝 Contributing
 
