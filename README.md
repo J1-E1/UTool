@@ -1,33 +1,123 @@
-# UTool 🛠️
+# UTool - Unity Tools & Plugins Knowledge Base
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Unity-Tools_Notes-blue.svg" alt="Unity Tools">
-  <img src="https://img.shields.io/badge/Knowledge-Base-green.svg" alt="Knowledge Base">
+## Comprehensive documentation for Unity development tools and frameworks
+
+![Unity](https://img.shields.io/badge/Unity-2020.3%2B-blue.svg)
+![Documentation](https://img.shields.io/badge/docs-comprehensive-brightgreen.svg)
+![Language](https://img.shields.io/badge/language-EN%20%7C%20CN-orange.svg)
+![License](https://img.shields.io/badge/license-Educational-lightgrey.svg)
+
+English | [简体中文](./README-CN.md)
+
+A curated knowledge base for Unity development, covering popular tools, plugins, and frameworks. This repository provides organized notes, API references, configuration guides, and best practices for commonly-used Unity assets.
+
+## Table of Contents
+
+- [Components](#-components)
+- [Quick Start](#-quick-start)
+- [Documentation Structure](#-documentation-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+## 🎮 Components
+
+### Camera & Cinematography
+
+**[Cinemachine](./Cinemachine)** - Advanced virtual camera system
+- Procedural camera behavior and shot composition
+- Virtual cameras with priority-based blending
+- Timeline integration and smooth transitions
+
+### Game Development Frameworks
+
+**[Game Creator](./Game%20Creator)** - Visual scripting framework
+- No-code game development with triggers and actions
+- Complete systems: Inventory, Stats, Quests, Combat
+- Modular architecture with shooter, melee, and traversal modules
+
+### UI Frameworks
+
+**[MlskyUI](./MlskyUI)** - Modern UI component library
+- Dark and Modern theme support
+- Pre-built components: buttons, modals, sliders
+- Gamepad support and localization
+
+**[Radial Menu](./RadialMenu)** - Circular menu system
+- Customizable radial button layouts
+- Object pooling for performance
+- Multiple visual styles
+
+### Programming Utilities
+
+**[UniTask](./UniTask)** - Zero-allocation async/await
+- High-performance async operations
+- Unity-specific async patterns
+- Cancellation token support
+
+### Art & Assets
+
+**[Synty Studios](./Synty)** - Low-poly asset collections
+- Modular character systems
+- Environment and prop packs
+- Performance optimization guides
+
+## 🚀 Quick Start
+
+### Browse Documentation
+
+1. Navigate to a component folder from the list above
+2. Read the `README.md` for overview and quick start
+3. Explore detailed documentation files for specific features
+4. Check code examples and implementation patterns
+
+### Component Selection Guide
+
+- **For camera work** → Cinemachine
+- **For rapid prototyping** → Game Creator
+- **For UI systems** → MlskyUI or Radial Menu
+- **For async programming** → UniTask
+- **For art assets** → Synty Studios
+
+## 📂 Documentation Structure
+
+Each component follows this organization:
+
+```
+Component/
+├── README.md              # Overview, features, quick start
+├── SubSystem/             # Detailed feature documentation
+│   └── feature.md
+└── images/                # Screenshots and diagrams
+    └── descriptive-name.png
+```
+
+### Documentation Features
+
+- **Bilingual content** - Key concepts explained in English and Chinese
+- **Code examples** - Ready-to-use snippets with inline comments
+- **Visual references** - Screenshots for UI and configuration
+- **Best practices** - Performance tips and common patterns
+
+## 🤝 Contributing
+
+Contributions are welcome! When adding documentation:
+
+1. Follow the existing structure and naming conventions
+2. Include both English and Chinese sections where applicable
+3. Use descriptive names for images (not timestamps)
+4. Test all code examples before committing
+5. Update the main README if adding new components
+
+## 📝 License
+
+This repository contains educational notes and references. Please respect the original licenses of the documented tools and assets.
+
+---
+
+**Note:** This is a documentation repository. Actual asset packages must be obtained from their official sources (Unity Asset Store, GitHub, etc.).
+
+---
+
+<p align=”center”>
+  <sub>Built for the Unity developer community</sub>
 </p>
-
-欢迎来到 **UTool** 笔记库！本仓库主要用于记录、整理和沉淀在 Unity 开发过程中使用的各种核心插件、框架及工具的学习笔记与参考指南。
-
-通过结构化的目录管理，方便快速检索各个组件的 API 用法、配置技巧以及开发过程中的“踩坑”记录。
-
-## 📂 组件导航 / Components Index
-
-点击下方表格中的**文件夹链接**，即可进入对应组件的专属笔记目录：
-
-| 组件名称 (Component) | 快速传送门 | 核心内容 / 简要描述 (Description) |
-| :--- | :---: | :--- |
-| **Cinimachine** | [📁 进入目录](./Cinimachine) | 强大的虚拟摄像机系统：运镜配置、轨道跟随与震动效果 |
-| **Game Creator** | [📁 进入目录](./Game%20Creator) | 零代码/可视化游戏开发框架：触发器、动作序列与状态机 |
-| **Mlsky.UI** | [📁 进入目录](./Mlsky.UI) | UI 框架与组件：界面堆栈管理、动画效果与通用预制体 |
-| **RadialMenu** | [📁 进入目录](./RadialMenu) | 环形/轮盘菜单系统：交互逻辑、动态生成与 UI 适配 |
-| **Synty** | [📁 进入目录](./Synty) | Synty Studios 资产库：Low Poly 模型规范、材质与优化 |
-| **UniTask** | [📁 进入目录](./UniTask) | 零 GC 异步编程库：`async/await` 替代协程的最佳实践 |
-
----
-
-## 💡 使用建议 / Tips
-
-1. **统一结构：** 建议进入每个子目录后，再建立一个该组件专属的 `README.md`（例如：`./UniTask/README.md`），用于记录该插件的**快速上手代码**和**核心机制**。
-2. **资源隔离：** 如果笔记中涉及测试代码或 Unity 的 `.unitypackage` 导出包，请归置在各组件的 `Assets` 或 `Packages` 子文件夹下。
-
----
-*保持学习，持续更新。*
